@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3c6bf"
+    tools:context=".activities.MainMenuActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/mainMenuToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#589114"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/wishlist"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/wishlisticon" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.07"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineHalf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0" />
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="1" />
+    <View
+        android:id="@+id/botleft"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/rounded_edittext2"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
+        app:layout_constraintEnd_toStartOf="@+id/botright"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/topleft"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <View
+        android:id="@+id/botright"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/rounded_edittext2"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toBottomOf="@+id/topright"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <View
+        android:id="@+id/topright"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/rounded_edittext2"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintHorizontal_bias="0.964"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="@id/guidelineTop"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <View
+        android:id="@+id/topleft"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/rounded_edittext2"
+        app:layout_constraintBottom_toBottomOf="@id/guidelineBottom"
+        app:layout_constraintEnd_toStartOf="@+id/topright"
+        app:layout_constraintHorizontal_bias="0.253"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:layout_constraintTop_toTopOf="@id/guidelineTop"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="170dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="@+id/topright"
+        app:layout_constraintEnd_toEndOf="@+id/topright"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/topright"
+        app:layout_constraintTop_toTopOf="@+id/topright"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/chats" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="170dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botright"
+        app:layout_constraintEnd_toEndOf="@+id/botright"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/botright"
+        app:layout_constraintTop_toTopOf="@+id/botright"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/settings_icon" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="SETTINGS"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/botright"
+        app:layout_constraintEnd_toEndOf="@+id/botright"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="@+id/botright"
+        app:layout_constraintTop_toTopOf="@+id/botright"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="177dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="@+id/topleft"
+        app:layout_constraintBottom_toTopOf="@id/botleft"
+        app:layout_constraintEnd_toEndOf="@+id/topleft"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/topleft"
+        app:layout_constraintTop_toTopOf="@+id/topleft"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/data_list_icon" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="177dp"
+        android:layout_height="136dp"
+        app:layout_constraintBottom_toBottomOf="@+id/botleft"
+        app:layout_constraintEnd_toEndOf="@+id/botleft"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/botleft"
+        app:layout_constraintTop_toTopOf="@+id/botleft"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/post_icon" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="MY POSTS"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/botleft"
+        app:layout_constraintEnd_toEndOf="@+id/botleft"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="@+id/botleft"
+        app:layout_constraintTop_toTopOf="@+id/botleft"
+        app:layout_constraintVertical_bias="0.937" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="POST LIST"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/topleft"
+        app:layout_constraintEnd_toEndOf="@+id/topleft"
+        app:layout_constraintStart_toStartOf="@+id/topleft"
+        app:layout_constraintTop_toTopOf="@+id/topleft"
+        app:layout_constraintVertical_bias="0.951" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="MY CHATS"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/topright"
+        app:layout_constraintEnd_toEndOf="@+id/topright"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/topright"
+        app:layout_constraintTop_toTopOf="@+id/topright"
+        app:layout_constraintVertical_bias="0.944" />
+
+    <ImageButton
+        android:id="@+id/adminPanelButton"
+        android:layout_width="276dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="68dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/guidelineBottom"
+        app:layout_constraintEnd_toEndOf="@id/guidelineRight"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@id/guidelineLeft"
+        app:srcCompat="@drawable/fui_idp_button_background_twitter" />
+
+    <TextView
+        android:id="@+id/adminPanelTextView"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="ADMIN PANEL"
+        android:visibility="gone"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/adminPanelButton"
+        app:layout_constraintEnd_toEndOf="@+id/adminPanelButton"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="@+id/adminPanelButton"
+        app:layout_constraintTop_toTopOf="@+id/adminPanelButton"
+        app:layout_constraintVertical_bias="0.428" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

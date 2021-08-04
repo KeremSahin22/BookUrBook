@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3c6bf"
+    tools:context=".activities.ChatActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#589114"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageButton
+            android:id="@+id/reportButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/baseline_report_problem_black_18dp" />
+
+        <ImageButton
+            android:id="@+id/blockButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/baseline_block_black_18dp" />
+
+        <ImageButton
+            android:id="@+id/homeButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center|right"
+            android:src="@drawable/ic_action_name" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/my_chats_recycler_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/message_send_layout"
+        android:layout_below="@+id/toolbar_chat"
+        android:layout_marginBottom="-2dp"
+        android:background="#e3c6bf"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar_chat"
+        app:layout_constraintVertical_bias="0.448" />
+
+    <RelativeLayout
+        android:id="@+id/message_send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:background="#e3c6bf"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/message_box"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toStartOf="@+id/send_message_button"
+            android:layout_toLeftOf="@+id/send_message_button"
+            android:background="@drawable/rounded_edittext"
+            android:ems="10"
+            android:hint="Type your message..."
+            android:textSize="16sp"
+            android:layout_centerVertical="true"/>
+
+        <ImageView
+            android:id="@+id/send_message_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/message_send_image"
+            android:scaleType="fitXY"
+            tools:ignore="MissingConstraints"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+</RelativeLayout>

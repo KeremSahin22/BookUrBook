@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/uni_filter"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:text="Filter by University"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <Spinner
+        android:id="@+id/univeristy_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/course_filter"
+        app:layout_constraintStart_toStartOf="@+id/uni_filter"
+        app:layout_constraintTop_toBottomOf="@+id/uni_filter"
+        app:layout_constraintVertical_bias="0.23000002" />
+
+    <TextView
+        android:id="@+id/course_filter"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Filter by Course"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uni_filter"
+        app:layout_constraintVertical_bias="0.255" />
+
+    <Spinner
+        android:id="@+id/course_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/price_filter"
+        app:layout_constraintStart_toStartOf="@+id/course_filter"
+        app:layout_constraintTop_toBottomOf="@+id/course_filter"
+        app:layout_constraintVertical_bias="0.23000002" />
+
+    <TextView
+        android:id="@+id/price_filter"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:text="Filter by Price"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/course_filter"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <EditText
+        android:id="@+id/low_price"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Lower Bound"
+        android:textSize="15dp"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.176"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_filter"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <EditText
+        android:id="@+id/high_price"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Upper Bound"
+        android:textSize="15dp"
+        android:inputType="numberDecimal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.819"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_filter"
+        app:layout_constraintVertical_bias="0.102" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

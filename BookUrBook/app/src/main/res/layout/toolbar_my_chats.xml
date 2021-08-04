@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#589114"
+    app:title="My Chats"
+    android:elevation="4dp"
+    android:id="@+id/toolbar_my_chats">
+
+
+
+</androidx.appcompat.widget.Toolbar>

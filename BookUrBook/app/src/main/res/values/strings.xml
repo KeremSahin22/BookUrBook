@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BookUrBook</string>
+    <string name="descriptionTextView">TextView</string>
+    <string name="postTitleTextView">TextView</string>
+
+    <string-array name="postReportCategories">
+        <item>Abusive</item>
+        <item>Scam</item>
+        <item>Inappropriate Content</item>
+    </string-array>
+
+    <string-array name="Universities">
+        <item>Other</item>
+        <item>Bilkent</item>
+        <item>Bogazici</item>
+        <item>METU</item>
+        <item>Hacettepe</item>
+        <item>ITU</item>
+        <item>Sabanci</item>
+        <item>Koc</item>
+        <item>Gazi</item>
+    </string-array>
+
+    <string-array name="Courses">
+        <item>Other</item>
+        <item>MATH</item>
+        <item>CS</item>
+        <item>ENG</item>
+        <item>EEE</item>
+        <item>MED</item>
+        <item>BIO</item>
+        <item>PHYS</item>
+        <item>PSYC</item>
+        <item>HIST</item>
+
+    </string-array>
+
+</resources>

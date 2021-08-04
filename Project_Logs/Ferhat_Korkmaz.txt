@@ -1,0 +1,68 @@
+# CS102 Project g1A - Ferhat Korkmaz personal logs
+
+On this page I will keep a weekly record of what I have done for the CS102 group project.
+
+# 1 October -  25 October #
+Briefly, on this time interval,
+Me and my groupmates were discussing about our project idea. In order to find a good idea and have a road to follow in my mind, we had a meeting with Özcan Hoca, which was very beneficial for me.
+And finally we agreed on an idea that is about a second-hand university school materials. Requirements report and presentation were on this interval. And I took part in the first half
+of the presentation on physical labs.
+
+# 26 October - 1 November #
+During this week, I have downloaded Android Studio to my laptop and started working on it. After figuring out the basic structure of Android Studio such as button listeners, setting the text views and activity transitions,
+I watched sample application development tutorials on Android Studio on Youtube.
+
+
+# 2 November - 8 November #
+In this week, I mostly work on UI Design report in terms of CS102 project process.
+I designed every screen for our app's UI by using Photoshop after discussing what our application is going to look like with my friends.
+
+
+# 9 November -15 November #
+I could not zero in on the project due to the Midterm Week.
+
+
+# 16 November - 22 November #
+This week, I watched tutorials regarding login-logout system on Android Studio. I have read the documentation for Firebase Authentication. Also, there was a UI design presentation
+but I was not totally active since I had already took an active place on the first presentation.
+
+
+# 23 November - 29 November #
+This week, I started working on the project. I designed the Welcome, Login, Register, Forgotten Password, Verification screens.
+Furthermore, I made them properly work. However, database was not fully connected and MVC was not implemented. Therefore, what I did was a draft that would guide us after starting
+the implementation stage.
+
+
+# 30 November - 6 December #
+This week, me and my groupmates worked on the detailed design stage. As we wanted to follow MVC design pattern, we started to deeply think about the core classes and interfaces.
+On our Google Drive folder, every member, including me, added their ideas whenever they want into the UML diagram document. For me, It was hard to imagine an OOP pattern in Android
+Studio since I was not fully familiar with the database concepts.
+
+# 7 December - 13 December #
+This week, I started to learning Firebase Firestore database. I was kind of in a rush since the semester was coming to an end. However, I mostly understood its basics and
+became ready to implement our project. After learning it, We started our GitHub repository and working on the actual project. Using GitHub was kind of confusing for me, yet
+I got over it eventually.
+
+# 14 December - 20 December # 
+This week was the most intense week in terms of the CS102 project for me. I generally worked with Melih. We have dealt with a plethora of database issues!
+What have I done this week:
+- Implementing the JavaMailAPI into the project in order to send a mail that contains the verification code (I have used my draft in order to accomplish it easily.)
+- Using FireBase and Connecting MVC Models with the gotten information from Database for activities (with Melih).
+- Login-Register-Logout systems on which only the users with @.edu.tr mails can register with a verification code that are sent to their email and uploading/ downloading those data
+with Melih.
+- Setting and displaying the user avatar.
+- Designing main menu, login, verification, register, and welcome screens (with Melih).
+
+
+# 21 December - 27 December # //FINAL WEEK!
+This week was also one of the most intense week for me. I worked on several activities.
+- Making wishlist connected with the database and setting the necessary intents.
+- Database connection of the admin panel.
+- Enhanced report system by using JavaMailAPI and Firebase.
+- Block system.
+- Eliminating banned and blocked users posts from the postlist and wishlist panels.
+- More validation checks for the register activity. (Alphanumerical Email, username, and password)
+- Sending feedback through the settings screen.
+- Resetting password for the users.
+- Setting new users' and posts' properties in light of these changes.
+- A plethora of bug fixes :( .

@@ -1,0 +1,35 @@
+CS102 g1A ~ Group Meetings Log page ~
+
+05/10/2020
+We got together to brainstorm (the project). Every member suggested his/her ideas and discussed them. 
+
+08/10/2020
+We came together to find a project idea and we finally found an idea, which gratifies all of us. As school-related materials are very expensive due to economic reasons, we thought of an app that enables students to sell their second-hand school materials on an online platform. In this app, students can either find and buy the necessary material or they can sell the materials that they do not need anymore. This app is focused exclusively on university students and on-ly they will be able to use it.
+
+11/10/2020
+We came together to discuss the details of our project. We listed the reasons why we chose this app and which features will be on our app for our report and presentation.
+
+22/10/2020
+Considering the feedback to our project report, we talk about some changes in our app and write the report.
+
+02/11/2020
+We came together to design our app UI design. Most of the screens were designed (Main Screen, Post and PostList Screen, Chat Screen, Settings Screen and Profile Screen).
+
+21/11/2020
+According to the feedback, we made some changes, added new screens and features to our UI.
+
+28/11/2020
+We created UML diagram of model classes so we basically started to write classes and methods which connect each other and also the distribution of tasks was completed and everyone started coding
+
+16/12/2020
+Every member showed their codes related to their parts and every part has been pushed and combined in the main branch of the repository on GitHub. 
+
+17/12/2020
+We came together to fix bugs for the first code check point. After showing our code and working app, we listed remaining parts of our project (notification, admin panel, chat screen and the connection of the database to some classes) and continue to code.
+
+20/12/2020
+We met again to check our complete codes until this time, we completed some additional features and did some bug fixing after we pushed our codes to the main branch.
+
+27/12/2020
+We do final bug fixing. Now, we are ready to present our app and upload our project codes. Today, we are preparing a video which explains our goal and achievement in this project. We revised the detailed design report. 
+

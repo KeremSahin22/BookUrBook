@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#589114"
+    android:elevation="4dp">
+
+    <ImageButton
+        android:id="@+id/wishlistButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|right"
+        android:src="@drawable/baseline_favorite_black_18dp"
+        tools:src="@drawable/baseline_favorite_black_18dp" />
+
+    <ImageButton
+        android:id="@+id/reportButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|right"
+        android:src="@drawable/baseline_report_problem_black_18dp" />
+
+    <ImageButton
+        android:id="@+id/homeButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|right"
+        android:src="@drawable/ic_action_name" />
+
+
+</androidx.appcompat.widget.Toolbar>

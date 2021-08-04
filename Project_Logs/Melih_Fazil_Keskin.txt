@@ -1,0 +1,40 @@
+# CS102 Project g1A - Melih Fazıl Keskin personal logs
+
+Until the 23th of November,i generally worked with my group about the project idea, reports, UI design and presentations. My individual works were related with these topics
+like practicing for presentation, designing the storyboard of our app with the feedbacks of my friends or designing the application logo for our project.
+
+# 23 November - 29 November #
+This week, I started to watch tutorials about the basics of Android Studio. I downloaded Android Studio, SDK and other necessary tools to be ready for implementaion stage.
+
+# 30 November - 6 December #
+This week, we had a meeting about detailed design of our app. We discussed about our core classes. We focused on how to create an healthy MVC model and how to use OOP in
+Andriod as much as possible. In our drive we created a document about the core class ideas and each member added their ideas to drive. Task distribution of our project has done in this week. 
+My task is working on database and chat system.I worked on the model class design for chat system. 
+
+# 7 December - 13 December #
+This week, I started to learn database for the chat system in our app. I watched a tutorial length of 3-4 hours about an Android chat app which uses Firebase.
+While watching it, i tried to implement a project like that app by myself to be ready for our app. For my personal project, i created an successful Login/Register system
+but i had some issues about the database connection to chat. This study helped me to improve the designs of model classes of chat system. I also learn the basics of
+Firestore database system. We also created our GitHub repository for our app.
+
+# 14 December - 20 December # //THIS WEEK
+In this week, we all started to work on our tasks. I worked on mostly the database structre plan and issues with Ferhat.
+What I have done this week:
+- Implementing the classes Chat and Message
+- Creating the structure of database connection for ChatActivity class. For now, it retrieves the chat data of curret user without all messages and date of last message.
+It also updates data in app whenever a change occurs in database.
+- Using FireBase and Connecting MVC Models with the gotten information from Database for activities (with Ferhat).
+- Login-Register-Logout systems on which only the users with @.edu.tr mails can register with a verification code that are sent to their email and uploading/ downloading those data
+(with Ferhat)
+- I give ideas to Ferhat about the designs of main menu, login, verification, register, and welcome screens. Implementations have done by Ferhat.
+
+# 21 December - 27 December # //FINAL WEEK!
+This week was really tiring. We all did our best to finish the app. We managed to implemen almost anything we decided to put in app.
+What I have done this week:
+- Implementing MyChatsActivity, ChatActivity and MessageAdapter for the chat system.
+- Designing UI of ChatActivity
+- Adding new message icon on MyChatsActivity
+- Block System (with Ferhat). I made necessary changes in chat regarding block system.
+- Notificatiion system in chat and wishlist (with Kerem and Kaan). We used SendNotificationPack to manage this. I changed necessary parts in this pack like database connection.
+- Device token update in database for notifications.
+- Lots of bug fixing, especially in chat...

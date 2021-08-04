@@ -1,0 +1,40 @@
+This is my weekly record page of what I have done for the CS102 group project. This page will be submitted together with the rest of the repository, in partial fulfillment of the CS102 course requirements.
+
+~ 28 September - 26 October~
+I came together with my groupmates and we discussed ideas for our project. I also could find some ideas. However, we finally decided to make an app that has a platform users can sell and buy second hand school materials. I thought about its features.
+Then, I started to search and watch tutorials in order to learn Android Studio.
+
+~ 02 - 08 November ~
+I started to make user interface design with my groupmates. We eventually discussed and  finished designing most of the screens and made connections between them.
+I also suggested some features which were forgotten.
+Then, I wrote the details of some screens, which were for the UI Design Report.
+
+~ 09 - 15 November ~
+MIDTERM WEEK!!
+~ 16 - 22 November ~
+This week, considering feedback, I modified the details of some screens, and took part in the UI Design presentation.
+Also, after watching several tutorials, I started to code what I learned as a practice for the project.
+
+~ 23 - 29 November ~
+Continuing watching tutorials about MVC, Android and making practice...
+
+~ 30 November - 06 December ~
+I thought about the detailed design of our projects with my groupmates and after distribution of tasks,as my part, I concentrated on writing the methods of core classes with Kerem.
+Also, my parts generally are coding some views like My Posts, My Wishlist, My Blocklist, their pop-ups, their control classes and making connections between related core classes. 
+Additionally, in order to learn to start one activity from another activity, I was continuing watching more tutorials.
+
+~ 07 - 13 December~
+Thinking hardly about core classes, their necessary methods and properties to cover any missings.
+Then, I finally started to code some of the methods of the core classes (Wishlist Class, some of the methods of Post and User Class) using Android Studio.
+
+~ 14 - 20 December ~
+I start to code classes like My Posts, My Blocklist, their pop-ups, their controllers and making connections between related core classes. 	
+Additionally, I code Wishlist Screen and change the design according to last feedback simultaneously. 
+Also, in order to learn to start one activity from another activity or update the screens I was continuing watching more tutorials so it is a challenging week for me.
+
+~ 21 - 27 December ~
+This week is the last week of our project so I tried to fulfil my duties. I finished Admin Panel Activity class, its view and its adapter.
+I added dialog pop-up to My Posts and Blocklist views for user interaction.
+Then, I came together with Ferhat to do database connection on Wishlist, Blocklist and My Posts classes and bug fixing on these classes. 
+Also, I tried to fix layouts to support different screen sizes which is successful for nearly most screens except too small phones. 
+

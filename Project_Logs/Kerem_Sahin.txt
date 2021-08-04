@@ -1,0 +1,55 @@
+# CS102 Project g1A - Kerem ŞAHİN personal log
+
+On this page I will keep a weekly record of what I have done for the CS102 group project.
+
+# 1 October -  25 October #
+We have gathered with our team and did the necessary discussions and tasks for the project. I have also presented our first Presentation with Ferhat.
+
+# 26 October - 1 November #
+I have installed Android Studio on my PC. Since we want to implement it on android, I watched minor tutorials about the basics of the Android Studio.
+
+# 2 November - 8 November #
+For the UI Report, I have gathered every element (UI Design, Descriptions...) that is done by my friends and put them into the report. I have edited 
+the necessary parts and added descriptions where I was necessary.
+
+# 9 November -15 November #
+----Midterm Week-----
+
+# 16 November - 22 November #
+I started to go a bit deeper about the Android Studio tutorials. I have learned how to connect different pages and how to send object informations 
+between those pages.
+
+# 23 November - 29 November #
+I started to plan how to implement the Model Classes for our upcoming project. 
+
+# 30 November - 6 December #
+We started to work on our Detailed Design. According to the Detailed Design we have created, I started to implement the Model Classes and gather some 
+of the other Model Classes
+(Wishlist, Message, Chat) from Miray and Melih.
+
+# 7 December - 13 December #
+Model Classes were mostly finished. I started to look for minor mistakes, written the methods and connected the pieces from my friends. 
+Model class was created faster than I thought so I also started to create layouts for the screens and I started working on trying to connect it with the model classes. 
+I have also written the necessary activity classes.
+
+# 14 December - 20 December # //THIS WEEK
+Since we have 2 weeks left, I have shown most progression in this week. I have done the following things:
+
+>>Creation of Model Classes and implementation of their methods.
+>>Post Details Screen layout in Android Studio using xml, design and the creation of activi-ty classes.
+>>Create Post Screen layout in Android Studio using xml, design and the creation of activity class.
+>>Edit Post layout in Android Studio using xml, design and the creation of activity classes.
+>>Creation of the report post pop up.
+>>Additions that provide the user-interface interactions (as pop up screens) for the previously mentioned screens. 
+
+
+# 21 December - 27 December # //FINAL WEEK!
+This was again a rough week. After finishing my previously mentioned tasks, I have started to look at other several things
+
+>>Worked on the notification system that works when there is a message or when there is an item in the wishlist which has gotten edited
+>>Added a new feedback dialog that gets created in the settings screen.
+>>Added the delete icon and  its mechanism on postactivity for admins which enables admins to delete other posts.
+>>Worked on the report system.
+>>Linkage of screens.
+>>A lot of bug fixes regarding previously mentioned screens and mechanisms, algorithms.
+>>Changed the post activity design in order to create a better visual.

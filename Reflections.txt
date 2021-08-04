@@ -1,0 +1,27 @@
+-Learning Experience
+All of us get an experience in being a member of a team. Each one of us learned new features to use databases or design an app. 
+Most importantly, although we specialized in different fields, each one of us encountered many problems and learned to deal with these problems.
+ 
+-Dislikes about project work
+Beginning of the project, we had some difficulties in finding necessary tutorials because android studio releases new versions constantly and most of the tutorials were about older versions which is useless for us.
+ 
+-Most difficult aspects 
+As database manager we used Firebase, yet, it did not work how we imagined at first due to its asynchronous structure. 
+Nevertheless, after a week of struggling with the database, we finally made it work with OOP design. However, still we need to create nested database listeners while getting information from the database and the code indentation does not seem perfect.
+Since none of us have used GitHub before this project.We had difficulties to combine our codes in the main branch and commit the changes. However, we coped with this problem.
+ 
+-What would we do differently if we had to start over again? 
+We would start to learn database structure earlier so we would be less stressed about the project completion.
+ 
+-The time that we spend on this project
+We have been working since the beginning of this semester. 
+We planned every step according to the deadline of our reports and our final codes. 
+We started to code around mid November.
+Every member of the group fulfil his/her duties and allocate enough time for it. 
+ 
+-Final Comments about our project
+Yes, we are proud of what we have done! We can proudly display this project in our resumes and LinkedIn profiles.
+We had concerns about our project at the beginning but we handled it together step by step. 
+Now, looking back on the beginning of the project, it is clear that we learned and accomplished so many things.
+
+

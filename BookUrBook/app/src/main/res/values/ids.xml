@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editemail2" type="id" />
+    <item name="editemail" type="id" />
+    <item name="textView6" type="id" />
+    <item name="editpassword2" type="id" />
+    <item name="textView4" type="id" />
+    <item name="editrepassword" type="id" />
+    <item name="textView7" type="id" />
+    <item name="textView" type="id" />
+</resources>

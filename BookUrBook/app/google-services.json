@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "744320185676",
+    "firebase_url": "https://bookurbook-a02e4-default-rtdb.firebaseio.com",
+    "project_id": "bookurbook-a02e4",
+    "storage_bucket": "bookurbook-a02e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744320185676:android:ba2f9c5c05ed5efd1b0be9",
+        "android_client_info": {
+          "package_name": "com.example.bookurbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744320185676-vf6blnkps3n4nfa4prk4qibbh0m1649o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bookurbook",
+            "certificate_hash": "aa05416b69d01c7bf4f3980584442f5584ec2a5a"
+          }
+        },
+        {
+          "client_id": "744320185676-98edeh4p4qq29v09t8n0abahe334t9ta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvNIM6I14wB1-MVKRrh3z-krlYNa08sds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744320185676-98edeh4p4qq29v09t8n0abahe334t9ta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

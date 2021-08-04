@@ -1,0 +1,41 @@
+# CS102 Project g1A - Kaan Tek personal log
+
+On this page I will keep a weekly record of what I have done for the CS102 group project.
+
+# 1 October -  25 October #
+We made several meetings with our group and decided our project topic. We also made our first presentation.
+
+# 26 October - 1 November #
+I had already downloaded Android Studio on my pc and practiced a bit on summer, so during these times I watched some even more advanced tutorials about the Android Studio and its features
+
+# 2 November - 8 November #
+We wrote our UIDesignReport1 and uploaded it on Moodle. We also kept brainstorming about our application and its features.
+
+# 9 November -15 November #
+----Midterm Week-----
+
+# 16 November - 22 November #
+We kept brainstorming for the project and I learned how to use Recyler View. I also made the UIDesignPresentation with my friends Miray and Melih.
+
+# 23 November - 29 November #
+I started implementing the PostListActivity class which is basically the view of our Post List.
+
+# 30 November - 6 December #
+I added a Recycler View for our PostListActivity and made the connection between them. 
+
+# 7 December - 13 December #
+I added the searching feature to the PostList activity where the user can search through the posts. I also added the sorting feature to those posts by using the methods implemented by my friends.
+I made the connection with the model class my friends wrote earlier and the view I worked on.
+
+# 14 December - 20 December #
+I added a pop up screen to PostListActivity where the user can filter the post options. I added the necessary ui components and used the algorithms my friends wrote earlier.
+We made the connection between this class and the database with my friends.
+I started designing the MyChatsActivty which is the view for all of the chats of the user.
+I started designing the Chat which is the view for the chat between the current user and the other user.
+
+# 21 December - 27 December #
+Completion of My Chats screen and the necessary recycler view for the displayment of the chats.
+Worked on notification system with friends.
+Improvement of My Chats and Post List views for a better user experience.
+Some bugs regarding the search algorithm have been fixed
+Bug fixes for a better user experience with friends.
